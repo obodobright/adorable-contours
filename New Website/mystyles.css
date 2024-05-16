@@ -1,0 +1,371 @@
+.navHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+  background-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f9fe;
+}
+
+ul.navList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #244fa7;
+
+  transform: scale(1);
+  /* color: ; */
+}
+ul li a:hover {
+  text-decoration: underline;
+  transition: all 350ms;
+  transform: scale(1.2);
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3;
+}
+
+.btnContainer button {
+  height: 35px;
+  text-align: center;
+  padding: 0.2rem 1.8rem;
+  margin: 0.2rem 0.7rem;
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-radius: 0.3rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btnContainer .loginBtn {
+  background-color: #244fa7;
+  color: #fff;
+}
+.btnContainer .registerBtn {
+  color: #244fa7;
+
+  border: 1px solid #244fa7;
+}
+
+.logo h3 {
+  letter-spacing: 0.3em;
+  font-size: 24px;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  padding: 3rem 5rem;
+}
+
+.titleText {
+  font-size: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+.titleText span {
+  color: #244fa7;
+}
+
+.textDescription {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.textDescription span {
+  color: #244fa7;
+  padding: 0.2rem 0.5rem;
+  /* border-radius: 0; */
+  border-bottom: 2px solid #244fa7;
+}
+.product {
+  padding: 20px;
+  /* background-color: red; */
+  margin-top: 70px;
+}
+.product .categoryTitle {
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.product .card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.product .card .card-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.product .card .card-description h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.product .card .card-description p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product .card .btnHolder {
+  display: flex;
+  /* justify-items: center; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.btnHolder button {
+  background-color: transparent;
+  border: 1px solid #244fa7;
+  height: 30px;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.9rem;
+  color: #244fa7;
+  cursor: pointer;
+  transition: all 350ms;
+}
+.btnHolder button:hover {
+  background-color: #244fa7;
+  color: #fff;
+}
+.cardHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0.5rem auto;
+}
+
+.social-media {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 38px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  border: 1px solid #244fa7;
+  overflow: hidden;
+  padding: 0.1rem 0.2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-bar input {
+  /* width: 40%; */
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+  height: inherit;
+  color: #244fa7;
+}
+.search-bar input::placeholder {
+  color: #244fa7;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.search-bar button {
+  height: 35px;
+  padding: 0.1rem 0.6rem;
+  border-radius: 0.5rem;
+  background-color: #244fa7;
+  color: #fff;
+  border: 0;
+  outline: none;
+}
+
+.top-bar {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Checkout-btn {
+  height: 38px;
+  padding: 0.1rem 0.9rem;
+  background-color: #244fa7;
+  color: #fff;
+  border: 0;
+  outline: none;
+  border-radius: 0.5rem;
+}
+.view-btn {
+  height: 38px;
+  padding: 0.1rem 0.9rem;
+  background-color: #fff;
+  color: #244fa7;
+
+  border: 1px solid #244fa7;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+.about-brand {
+  margin-top: 40px;
+}
+.about-brand h3 {
+  font-size: 24px;
+  margin: 0.7rem auto;
+}
+
+.about-brand p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0.7rem 0.2rem;
+}
+
+.ctaContent {
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 1px soli #244fa7;
+}
+
+.ctaContent span {
+  color: #244fa7;
+}
+
+.contact-wrapper {
+  padding: 20px;
+}
+.contact-wrapper h1 {
+  font-size: 32px;
+  border-bottom: 2px solid #244fa7;
+  width: fit-content;
+}
+
+.contact-wrapper h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+.contact-wrapper a {
+  color: #244fa7;
+  font-style: italic;
+}
+
+.contact-wrapper p {
+  color: #244fa7;
+  font-style: normal;
+  margin-top: 0.2rem;
+}
+
+.input-holder {
+  margin: 20px;
+}
+
+.input-holder label {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+}
+.input-holder input {
+  width: 100%;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px solid #244fa7;
+}
+
+.input-holder textarea {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px solid #244fa7;
+}
+.contact-holder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.my-form-holder {
+  /* display: flex; */
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.form-holder {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-btn {
+  margin-left: 20px;
+}
+.form-btn button {
+  width: 100%;
+  height: 38px;
+  background-color: #244fa7;
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-size: 16px;
+  border-radius: 0.3rem;
+  font-weight: 500;
+}
